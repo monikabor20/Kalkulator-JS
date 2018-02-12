@@ -1,0 +1,31 @@
+html {
+    background: #cfed7f;
+    background-image: radial-gradient(70% 50% ellipse at center top, rgb(33, 22, 211) 0%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(70% 50% ellipse at center bottom, #432496 0%, #af6767 100%);
+    background-attachment: fixed;
+    color: #352baa;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+}
+
+#screen {
+    width: 220px;
+    height: 70px;
+    text-align: right;
+    color: #ffffff;
+    background-color: #6f749b;
+    border: none;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+
+#calculator {
+    text-align: center;
+    margin-top: 70px;
+}
