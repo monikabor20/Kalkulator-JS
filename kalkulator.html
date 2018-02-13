@@ -7,38 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kalkulator</title>
     <link rel="stylesheet" type="text/css" href="style/style.css" />
-
+    <script type="text/javascript" src="js/javascript.js"></script>
 </head>
 
 <body>
     <div id="calculator" class="calculator">
         <div class="row">
             <button id="clear"> C </button>
-            <button id="screen"> 0 </button>
+            <span id="screen"> 0 </span>
         </div>
         <div class="row">
-            <button class="number">7</button>
-            <button class="number">8</button>
-            <button class="number">9</button>
-            <button class="divide"> / </button>
+            <button class="number" onclick="kliknietoW7()">7</button>
+            <button class="number" onclick="kliknietoW8()">8</button>
+            <button class="number" onclick="kliknietoW9()">9</button>
+            <button class="divide" onclick="dzielenie()"> / </button>
         </div>
         <div class="row">
-            <button class="number">4</button>
-            <button class="number">5</button>
-            <button class="number">6</button>
-            <button class="multiply">*</button>
+            <button class="number" onclick="kliknietoW4()">4</button>
+            <button class="number" onclick="kliknietoW5()">5</button>
+            <button class="number" onclick="kliknietoW6()">6</button>
+            <button class="multiply" onclick="mnozenie()">*</button>
         </div>
         <div class="row">
-            <button class="number">1</button>
-            <button class="number">2</button>
-            <button class="number">3</button>
-            <button class="minus"> - </button>
+            <button class="number" onclick="kliknietoW1()">1</button>
+            <button class="number" onclick="kliknietoW2()">2</button>
+            <button class="number" onclick="kliknietoW3()">3</button>
+            <button class="minus" onclick="odejmowanie()"> - </button>
         </div>
         <div class="row">
-            <button class="number">0</button>
+            <button class="number" onclick="kliknietoW0()">0</button>
             <button class="number">.</button>
             <button class="equal">=</button>
-            <button class="plus"> + </button>
+            <button class="plus" onclick="dodawanie()"> + </button>
         </div>
     </div>
 
