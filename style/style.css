@@ -13,19 +13,30 @@ button {
 }
 
 #screen {
-    width: 220px;
+    width: 218px;
     height: 70px;
     text-align: right;
-    color: #ffffff;
-    background-color: #6f749b;
+    color: #e3dfea;
     border: none;
-}
+    line-height: 69px;
+    display: inline-block;
+    vertical-align: bottom;
+   }
+
 
 .row {
-    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #calculator {
     text-align: center;
     margin-top: 70px;
+    height: 500px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+
+

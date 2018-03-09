@@ -12,33 +12,35 @@
 
 <body>
     <div id="calculator" class="calculator">
+        <div class="row first">
+            <button id="clear" class="clear"> C </button>
+            <div id="screen"> 0 </div>
+        </div>
+
+     
         <div class="row">
-            <button id="clear"> C </button>
-            <span id="screen"> 0 </span>
+            <button class="number" onclick="kliknietoWLiczbe(7)">7</button>
+            <button class="number" onclick="kliknietoWLiczbe(8)">8</button>
+            <button class="number" onclick="kliknietoWLiczbe(9)">9</button>
+            <button class="divide" onclick="kliknietoWDzialanie('/')"> / </button>
         </div>
         <div class="row">
-            <button class="number" onclick="kliknietoW7()">7</button>
-            <button class="number" onclick="kliknietoW8()">8</button>
-            <button class="number" onclick="kliknietoW9()">9</button>
-            <button class="divide" onclick="dzielenie()"> / </button>
+            <button class="number" onclick="kliknietoWLiczbe(4)">4</button>
+            <button class="number" onclick="kliknietoWLiczbe(5)">5</button>
+            <button class="number" onclick="kliknietoWLiczbe(6)">6</button>
+            <button class="multiply" onclick="kliknietoWDzialanie('*')">*</button>
         </div>
         <div class="row">
-            <button class="number" onclick="kliknietoW4()">4</button>
-            <button class="number" onclick="kliknietoW5()">5</button>
-            <button class="number" onclick="kliknietoW6()">6</button>
-            <button class="multiply" onclick="mnozenie()">*</button>
+            <button class="number" onclick="kliknietoWLiczbe(1)">1</button>
+            <button class="number" onclick="kliknietoWLiczbe(2)">2</button>
+            <button class="number" onclick="kliknietoWLiczbe(3)">3</button>
+            <button class="minus" onclick="kliknietoWDzialanie('-')"> - </button>
         </div>
         <div class="row">
-            <button class="number" onclick="kliknietoW1()">1</button>
-            <button class="number" onclick="kliknietoW2()">2</button>
-            <button class="number" onclick="kliknietoW3()">3</button>
-            <button class="minus" onclick="odejmowanie()"> - </button>
-        </div>
-        <div class="row">
-            <button class="number" onclick="kliknietoW0()">0</button>
+            <button class="number" onclick="kliknietoWLiczbe(0)">0</button>
             <button class="number">.</button>
-            <button class="equal">=</button>
-            <button class="plus" onclick="dodawanie()"> + </button>
+            <button class="equal" onclick="kliknietoWRownaSie()">=</button>
+            <button class="plus" onclick="kliknietoWDzialanie('+')"> + </button>
         </div>
     </div>
 
