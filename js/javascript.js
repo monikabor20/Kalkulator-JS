@@ -24,18 +24,21 @@ function kliknietoWRownaSie() {
 
     switch (kliknieteDzialanie) {
         case "+":
-            screen.innerHTML = kliknietaWatoscX + "+" + kliknietaWatoscY + "=" + (kliknietaWatoscX + kliknietaWatoscY);
+            screen.innerHTML =   (kliknietaWatoscX + kliknietaWatoscY);
             break;
         case "-":
-            screen.innerHTML = kliknietaWatoscX + "-" + kliknietaWatoscY + "=" + (kliknietaWatoscX - kliknietaWatoscY);
+            screen.innerHTML =  (kliknietaWatoscX - kliknietaWatoscY);
             break;
         case "*":
-            screen.innerHTML = kliknietaWatoscX + "*" + kliknietaWatoscY + "=" + (kliknietaWatoscX * kliknietaWatoscY);
+            screen.innerHTML =  (kliknietaWatoscX * kliknietaWatoscY);
             break;
         case "/":
-            screen.innerHTML = kliknietaWatoscX + "/" + kliknietaWatoscY + "=" + (kliknietaWatoscX / kliknietaWatoscY);
+            screen.innerHTML = (kliknietaWatoscX / kliknietaWatoscY);
             break;
-    }
-    
+    } 
 }
 
+function kliknietoWClear(){
+     const screen = document.getElementById("screen");
+     screen.innerHTML = "0";
+}
