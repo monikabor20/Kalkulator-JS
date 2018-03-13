@@ -5,11 +5,15 @@ let kliknietaWatoscY;
 
 function kliknietoWLiczbe(liczba) {
     const screen = document.getElementById("screen");
-    screen.innerHTML = liczba;
-    if (!kliknieteDzialanie) {
-        kliknietaWatoscX = liczba;
+    if (!kliknietaWatoscY && kliknieteDzialanie) {
+        screen.innerHTML = liczba;
     } else {
-        kliknietaWatoscY = liczba;
+        screen.innerHTML += liczba;
+    }
+    if (!kliknieteDzialanie) {
+        kliknietaWatoscX = +screen.innerHTML;
+    } else {
+        kliknietaWatoscY = +screen.innerHTML;
     }
 }
 
@@ -42,7 +46,7 @@ function kliknietoWClear() {
     const screen = document.getElementById("screen");
     kliknietaWatoscX = null;
     kliknietaWatoscY = null;
-    kliknieteDzialanie= null;
-    screen.innerHTML = 0;
-    
+    kliknieteDzialanie = null;
+    screen.innerHTML = null;
+
 }

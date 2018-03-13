@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kalkulator</title>
     <link rel="stylesheet" type="text/css" href="style/style.css" />
-    <script type="text/javascript" src="js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 </head>
 
 <body>
     <div id="calculator" class="calculator">
+        <header>
+            <h1> Kalkulator </h1>
+        </header>
         <div class="row first">
             <button id="clear" class="clear" onclick="kliknietoWClear()"> C </button>
-            <div id="screen"> 0 </div>
+            <div id="screen"></div>
         </div>
-
-     
         <div class="row">
             <button class="number" onclick="kliknietoWLiczbe(7)">7</button>
             <button class="number" onclick="kliknietoWLiczbe(8)">8</button>
@@ -43,7 +44,7 @@
             <button class="plus" onclick="kliknietoWDzialanie('+')"> + </button>
         </div>
     </div>
-
+    <script type="text/javascript" src="js/javascript.js"></script>
 </body>
 
 </html>

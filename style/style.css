@@ -1,15 +1,26 @@
 html {
-    background: #cfed7f;
     background-image: radial-gradient(70% 50% ellipse at center top, rgb(33, 22, 211) 0%, rgba(0, 0, 0, 0) 100%),
-    radial-gradient(70% 50% ellipse at center bottom, #432496 0%, #af6767 100%);
+    radial-gradient(60% 40% ellipse at center bottom, #432496 0%, #bf7b7b 100%);
     background-attachment: fixed;
     color: #352baa;
+}
+
+* {
+    font-family: 'Lobster Two', cursive;
 }
 
 button {
     width: 70px;
     height: 70px;
     font-size: 20px;
+    background-color: #ffffff;
+    color: #300071;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3a1898;
+    color: #ffffff;
 }
 
 #screen {
@@ -21,8 +32,7 @@ button {
     line-height: 69px;
     display: inline-block;
     vertical-align: bottom;
-   }
-
+}
 
 .row {
     padding-top: 5px;
@@ -38,5 +48,7 @@ button {
 }
 
 
-
-
+h1 {
+    color: white;
+    font-size: 43px;
+}
